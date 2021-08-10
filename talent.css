@@ -1,0 +1,36 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+   
+section{
+    box-shadow: rgb(4, 85, 4); 
+    text-align: center;
+    background-color: lawngreen;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+.line{
+    text-align: left;
+    text-align: center;
+}
+.main{
+    text-align: center;
+}
+text{
+position: relative;
+}
+.items{
+    text-align: center;
+}
+button{
+    background-color: lawngreen;
+    border-radius: 15px;
+    padding-left:15px;
+    padding-right: 15px;
+}
+span{
+    display :inline-block;
+}
