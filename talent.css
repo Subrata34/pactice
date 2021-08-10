@@ -31,6 +31,8 @@ button{
     border-radius: 15px;
     padding-left:15px;
     padding-right: 15px;
+    font-size: 1px solid green;
+    font-size: 20px;
 }
 span{
     text-align :block;
@@ -40,4 +42,8 @@ span{
 }
 .blood{
     margin-top: 22px;
+}
+line{
+    display: inline-block;
+    text-align: block;
 }

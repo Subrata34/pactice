@@ -18,15 +18,17 @@
        <form action="">
        <h3>Name: <input type="text" placeholder="First Name">
         <input type="text" placeholder="last Name"> </h3>
+
            <div class="texted">
-             <h3>Type of Gender:</h3>
+              
+             <h3 class="line">Type of Gender:</h3>
               <div  class="blood">
                 <label for="">  <input type="radio" name="gender" id="gender "> Male </label>
                 <label for="">  <input type="radio" name="gender" id="gender "> Female </label>
              </div>
           </div>
             <br>
-            <span></span><label for="disease"> Select Blood Group :</label></span>
+            <span class="line"><label for="disease"> Select Blood Group :</label></span>
            <select name="disease" id="disease">
               <option value="o positive">O+</option>
               <option value="o negative ">B+</option>
@@ -37,14 +39,14 @@
               <option value="A positive  ">A+</option>
               <option value="A negative ">A-</option>
             </select>
-            
-              <h3>Select disease:</h3>
+            <div >
+              <h3 class="line">Select disease:</h3>
               <p><label for ="hoping cope"><input type="checkbox" name="disease" id="hoping cop">hoping cop</p></label> 
               <p><label for ="Diabetes"><input type="checkbox" name="disease" id="Diabetes">Diabetes</p></label>
               <p><label for ="Allergies"> <input type="checkbox" name="disease" id="Allergies">Allergies</p></label>
               <p><label for ="Blood Diseases"> <input type="checkbox" name="disease" id="Blood Diseases">Blood Diseases</p></label>
               <p><label for ="Influenza"> <input type="checkbox" name="disease" id="Influenza">Influenza</p></label>
-            
+            </div>
        </form>
         <p> <button>Submit</button> </p>
    </section>
