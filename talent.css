@@ -19,8 +19,9 @@ section{
 .main{
     text-align: center;
 }
-text{
-position: relative;
+.texted{
+  display:inline-flex;
+  
 }
 .items{
     text-align: center;
@@ -32,5 +33,11 @@ button{
     padding-right: 15px;
 }
 span{
-    display :inline-block;
+    text-align :block;
+}
+.textline{
+    border-top: 15px;
+}
+.blood{
+    margin-top: 22px;
 }
